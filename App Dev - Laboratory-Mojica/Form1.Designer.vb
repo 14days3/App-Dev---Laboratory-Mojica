@@ -165,7 +165,6 @@ Partial Class Form1
         ' 
         ' txtBasicSalary
         ' 
-        txtBasicSalary.Enabled = False
         txtBasicSalary.Font = New Font("Rockwell", 12F, FontStyle.Bold)
         txtBasicSalary.Location = New Point(232, 179)
         txtBasicSalary.Name = "txtBasicSalary"
