@@ -197,7 +197,6 @@ Partial Class Form1
         ' 
         ' txtTotalDeductions
         ' 
-        txtTotalDeductions.Enabled = False
         txtTotalDeductions.Font = New Font("Rockwell", 12F, FontStyle.Bold)
         txtTotalDeductions.Location = New Point(232, 356)
         txtTotalDeductions.Name = "txtTotalDeductions"
@@ -206,7 +205,6 @@ Partial Class Form1
         ' 
         ' txtNetSalary
         ' 
-        txtNetSalary.Enabled = False
         txtNetSalary.Font = New Font("Rockwell", 12F, FontStyle.Bold)
         txtNetSalary.Location = New Point(232, 397)
         txtNetSalary.Name = "txtNetSalary"
@@ -231,7 +229,7 @@ Partial Class Form1
         ' 
         ' btnClear
         ' 
-        btnClear.Location = New Point(206, 468)
+        btnClear.Location = New Point(34, 459)
         btnClear.Name = "btnClear"
         btnClear.Size = New Size(122, 39)
         btnClear.TabIndex = 20
@@ -249,7 +247,7 @@ Partial Class Form1
         ' 
         ' btnExit
         ' 
-        btnExit.Location = New Point(579, 484)
+        btnExit.Location = New Point(593, 475)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(75, 23)
         btnExit.TabIndex = 22
